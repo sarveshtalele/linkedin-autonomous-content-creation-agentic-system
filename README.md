@@ -4,11 +4,18 @@ An autonomous multi-agent system that ingests information from multiple sources 
 
 This project demonstrates how to build a production-grade AI content generation pipeline using modular agents and stateful orchestration.
 
- 
+ ## System Architecture
+
+![System Architecture](architecture_diagram.png)
 
 # Overview
 
 Maintaining a strong LinkedIn presence requires consistent, insightful content. This project automates the end-to-end process of content creation by combining multiple AI agents into a structured pipeline.
+
+## LangGraph Execution Flow
+
+![LangGraph Flow](langgraph_flow.png)
+
 
 The system:
 
@@ -55,8 +62,12 @@ Ingestion → Cleaning Agent → Keyword Agent → RAG Retrieval
 
 Each agent operates on a shared state object managed by the workflow orchestrator.
 
- 
+# Pipeline Execution Flow
 
+![Pipeline Flow](pipeline_flow.png)
+
+---
+ 
 # Repository Structure
 
 ```
