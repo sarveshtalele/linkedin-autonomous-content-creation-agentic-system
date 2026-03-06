@@ -14,7 +14,7 @@ Maintaining a strong LinkedIn presence requires consistent, insightful content. 
 
 ## LangGraph Execution Flow
 
-![LangGraph Flow](langgraph_flow.png)
+![LangGraph Flow](https://github.com/sarveshtalele/linkedin-autonomous-content-creation-agentic-system/blob/main/langraph_flow.png)
 
 
 The system:
