@@ -1,6 +1,16 @@
 # LinkedIn Autonomous Content Creation Agentic System
-
 An autonomous multi-agent system that ingests information from multiple sources and generates high-quality LinkedIn posts using AI agents, retrieval augmented generation (RAG), and workflow orchestration.
+
+## Demo
+
+Watch the system generate LinkedIn posts autonomously using a multi-agent workflow.
+
+<p align="center">
+  <a href="https://youtu.be/cI2e5bfqMUA">
+    <img src="https://img.youtube.com/vi/cI2e5bfqMUA/maxresdefault.jpg" width="900">
+  </a>
+</p>
+
 
 This project demonstrates how to build a production-grade AI content generation pipeline using modular agents and stateful orchestration.
 
@@ -8,11 +18,11 @@ This project demonstrates how to build a production-grade AI content generation 
 
 ![System Architecture](architecture_diagram.png)
 
-# Overview
+## Overview
 
 Maintaining a strong LinkedIn presence requires consistent, insightful content. This project automates the end-to-end process of content creation by combining multiple AI agents into a structured pipeline.
 
-## LangGraph Execution Flow
+### LangGraph Execution Flow
 
 ![LangGraph Flow](https://github.com/sarveshtalele/linkedin-autonomous-content-creation-agentic-system/blob/main/langraph_flow.png)
 
@@ -29,7 +39,7 @@ Instead of a single prompt-based system, the architecture uses specialized agent
 
  
 
-# Key Features
+## Key Features
 
 Multi-Agent Architecture  
 Separate agents handle cleaning, keyword extraction, writing, and review.
@@ -51,7 +61,7 @@ Compatible with Ollama models.
 
  
 
-# Architecture
+## Architecture
 
 The system follows a structured multi-agent pipeline:
 
@@ -113,9 +123,9 @@ src
 
  
 
-# Setup Guide
+#3 Setup Guide
 
-## 1 Clone the Repository
+### 1 Clone the Repository
 
 ```
 git clone https://github.com/sarveshtalele/linkedIn-autonomous-content-agent.git
@@ -124,7 +134,7 @@ cd linkedIn-autonomous-content-agent
 
  
 
-## 2 Create Virtual Environment
+### 2 Create Virtual Environment
 
 ```
 python -m venv venv
@@ -139,7 +149,7 @@ venv\Scripts\activate
 
  
 
-## 3 Install Dependencies
+### 3 Install Dependencies
 
 ```
 pip install -r requirements.txt
@@ -147,7 +157,7 @@ pip install -r requirements.txt
 
  
 
-## 4 Install and Run Ollama
+### 4 Install and Run Ollama
 
 Install Ollama
 
@@ -181,7 +191,7 @@ python -m src.pipeline.runner
 
  
 
-# Example Workflow
+## Example Workflow
 
 Input
 
@@ -203,28 +213,22 @@ Keywords: AI Agents, Autonomous Systems, Developer Productivity
 
  
 
-# Technologies Used
+## Technologies Used
 
-Python  
-LangChain  
-LangGraph  
-Ollama  
-Vector Databases  
-Hybrid Retrieval  
-Multi-Agent Architecture  
-
+- Python  
+- LangChain  
+- LangGraph  
+- Ollama  
+- Vector Databases  
+- Hybrid Retrieval  
+- Multi-Agent Architecture  
  
 
-# Future Improvements
+## Future Improvements
 
-Observability and tracing for agents  
-Automated evaluation benchmarks  
-Human-in-the-loop review  
-Content scheduling integration  
-Deployment as API service  
+- Observability and tracing for agents  
+- Automated evaluation benchmarks  
+- Human-in-the-loop review  
+- Content scheduling integration  
+- Deployment as API service  
 
- 
-
-# License
-
-MIT License
