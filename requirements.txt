@@ -1,0 +1,14 @@
+langgraph
+langchain
+langchain-community
+langchain-ollama
+langchain-chroma
+chromadb
+networkx
+pymupdf
+pytesseract
+pillow
+beautifulsoup4
+requests
+pyyaml
+streamlit
