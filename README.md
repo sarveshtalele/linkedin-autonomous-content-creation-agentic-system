@@ -1,7 +1,7 @@
 # LinkedIn Autonomous Content Creation Agentic System
 An autonomous multi-agent system that ingests information from multiple sources and generates high-quality LinkedIn posts using AI agents, retrieval augmented generation (RAG), and workflow orchestration.
 
-## Demo
+## Demo 
 
 Watch the system generate LinkedIn posts autonomously using a multi-agent workflow.
 
